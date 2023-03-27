@@ -1,0 +1,86 @@
+.container-subject{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1.7rem 0;
+}
+
+.text-subject{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.text-subject h1{
+    font-size: 3.1rem;
+    color: #62760C;
+}
+
+.Selectsec{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.css-b62m3t-container{
+    width: 7.5%;
+}
+
+.listsub{
+    width: 75%;
+    height: fit-content;
+    margin-top: 1.7rem;
+    background: #D5D5D5;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.sub{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: .7rem;
+}
+
+.sub-Id, .sub-Name, .sub-Credit, .sub-Time, .sub-Room, .sub-Teacher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-Id span, .sub-Name span, .sub-Credit span, .sub-Time span, .sub-Room span, .sub-Teacher span{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1024px){
+    .container-subject{
+        margin-top: 1.2rem;
+    }
+
+    .text-subject h1{
+        font-size: 2.5rem;
+    }
+
+    .Selectsec{
+        margin-top: .8rem;
+    }
+
+    .listsub{
+        width: 73%;
+        margin-top: 1.5rem;
+        padding: .5rem;
+    }
+
+    .sub{
+        padding: .7rem;
+    }
+
+    .sub-Id span, .sub-Name span, .sub-Credit span, .sub-Time span, .sub-Room span, .sub-Teacher span{
+        font-size: .85rem;
+    }
+}

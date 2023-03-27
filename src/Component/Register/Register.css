@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-register{
+    padding: 1.5rem 0;
+    min-width: 35rem;
+    min-height: 33rem;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    position: fixed;
+    background: rgba(180, 180, 180, 0.603); 
+    border-radius: 20px;    
+}
+
+.Register{
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.text-register{
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 1rem;
+}
+
+.text-register h1{
+    font-size: 3.3rem;
+    color: rgb(35, 68, 255);
+}
+
+.text-register h1 span{
+    color: rgb(245, 32, 32);
+}
+
+.email-re, .password-re, .ch-password-re{
+    width: 20rem;
+    height: fit-content;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-re p, .password-re p, .ch-password-re p{
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.hint{
+    display: flex;
+    align-items: center;
+}
+
+.hint span{
+    position: relative;
+    left: .6rem;
+    cursor: pointer;
+}
+
+.email-re input, .password-re input, .ch-password-re input{
+    width: 16rem;
+    height: 1.9rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: 0;
+    padding: 1rem;
+    outline: none;
+}
+
+.buttonElem-re{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-register{
+    margin-top: 1rem;
+    padding: .5rem 2.2rem;
+    border-radius: 20px;
+    text-align: center;
+    background: rgba(155, 154, 154, 0.486);
+    cursor: pointer;
+}
+
+.loginlink{
+    margin-top: 1rem;
+    padding: .5rem 2.2rem;
+    background: rgba(155, 154, 154, 0.486);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+.Success{
+    margin: .7rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 20px;
+    background:rgba(20, 209, 20, 0.5);
+    border: 2px solid rgba(20, 209, 20, 0.863);
+}
+
+.Success span{
+    color: rgb(4, 126, 4);
+    font-size: 1rem;
+}
+
+.Error{
+    margin: .5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Error span{
+    color: rgb(153, 8, 8);;
+    font-size: .8rem;
+}
